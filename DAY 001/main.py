@@ -2,7 +2,7 @@
 
 #1. Create a greeting for your program.
 
-print("HEY Rockstar !! You need one awsome Band name Let's Create one for ya.. ")
+print("HEY Rockstar !! You need one awsome Band name Let's Create one for ya... ")
 
 #2. Ask the user for the city that they grew up in.
 
