@@ -1,7 +1,7 @@
 # BILL SPLITER / TIP CALCULATOR
 import math
 
-print("WELCOME TO TIP CALCULATOR !! ")
+print("WELCOME TO TIP CALCULATOR !! 🧮")
 
 bill = float(input("What was total bill ? : $"))
 
