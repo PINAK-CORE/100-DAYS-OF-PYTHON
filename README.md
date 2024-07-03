@@ -3,7 +3,7 @@ I'm excited to embark on this 100 Days of Python challenge with Angela Yu!  I'm 
   
 - [x] Day 1
 - [x] Day 2
-- [ ] Day 3
+- [x] Day 3
 - [ ] Day 4
 - [ ] Day 5
 - [ ] Day 6
