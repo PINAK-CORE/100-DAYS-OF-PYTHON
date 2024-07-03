@@ -8,17 +8,16 @@ if(game_mode == 1):
         Your mission is to find the treasure.
         ''')
     
-    while(game_mode == True):
-        choice1 = input
-        (
+    while(game_mode == 1):
+        choice1 = input(
             ''' 
             [1] GO Right
             [2] GO left
-            '''
+            \n 
+>'''
         )
         if(choice1 == '1' or choice1 == 'right'):
-            print
-            (
+            print(
             '''
             Fall into a hole.
             Game Over.
@@ -26,17 +25,16 @@ if(game_mode == 1):
             )
             break
         else:
-            choice2 = input
-            (
+            choice2 = input(
                 '''
                 That was eazy now there is a Lake What you wanna do swim like champ or wait like waiter
                 [1] swim
                 [2] wait
-                '''
+                \n
+>'''
             )
             if(choice2 == '1' or choice2 == 'swim'):
-                print
-                (
+                print(
                     ''' 
                     Attacked by trout.
                     Game Over.
@@ -46,19 +44,18 @@ if(game_mode == 1):
             else:
                 print("NOO WAYYY YOU PASSED THIS TRICK ...!!!")
 
-                choice3 = input
-                (
+                choice3 = input(
                     '''
                     ok ! last Stage !!!
                     there are three door ... red , green , yellow choose one of them you can escape
                     [1] red
                     [2] blue
                     [3] yellow
-                    '''
+                    \n
+>'''
                 )
                 if(choice3 == '1' or choice3 == "red"):
-                    print
-                    (
+                    print(
                         '''
                         Burned by fire. 🔥
                         Game Over.
@@ -66,14 +63,25 @@ if(game_mode == 1):
                     )
                     break
                 elif(choice3 == '2' or choice3 == "blue"):
-                    print
-                    (
+                    print(
                         '''
                         Eaten by beasts.
                         Game Over.
                         '''
                     )
                     break
+                elif(choice3 == '3' or choice3 == 'yellow'):
+                    print(
+                        '''
+                        WHATTT !!! YOUR Lucky I guees , Whattever
+                        YOU WIN .. !!
+                        '''
+                    )
+                    break
+                else:
+                    print("Game Over")
+                    break
 else:
     print("ok losser 😛")
     
+
