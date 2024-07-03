@@ -1,6 +1,6 @@
-# DAY 3 Treasure Island
+# DAY 3 Treasure Island 🏴‍☠️
 
-
+print("READYYY FOR TREASURE ISLAND 🏴‍☠️")
 game_mode = int(input("\n ARE YOU READY ?? [1] hell yea [2] nahh im normal : "))
 
 if(game_mode == 1):
