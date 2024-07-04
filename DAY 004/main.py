@@ -169,5 +169,6 @@ while(game_mode == '1'):
 
         print("Result : Computer Wins !!")
 
+
 print("\n THANK YOU FOR PLAYTING THIS GAME ")
     
