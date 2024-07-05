@@ -8,9 +8,7 @@ numbers = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
 symbols = ['!', '#', '$', '%', '&', '(', ')', '*', '+']
 
 no_letters = int(input(" HOW MANY NO. OF LETTERS YOU WANTS > "))
-
 no_number = int(input(" HOW MANY numbers YOU WANTS > "))
-
 no_symbols = int(input(" HOW MANY NO. OF SYMBOLS YOU WANTS > "))
 
 password = ""
